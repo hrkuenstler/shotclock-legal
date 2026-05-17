@@ -1,6 +1,6 @@
-# shotclock-legal
+# scoreboards-legal
 
-Static legal pages (privacy policy and imprint, in German) for the Android apps **ShotClock** and **ScoreBoard**, served via GitHub Pages under the custom domain `scoreboard.krabbenfudder.de`. The URL is referenced from the apps' Google Play Store listings.
+Static legal pages (privacy policy and imprint, in German) for the Android apps **ScoreBoard** and **ShotClock** by *Künstler's ScoreBoards* (canoe polo / Kanupolo), served via GitHub Pages under the custom domain `scoreboard.krabbenfudder.de`. The URL is referenced from the apps' Google Play Store listings.
 
 ## Contents
 
@@ -22,7 +22,7 @@ The site uses only system fonts and no external resources (no Google Fonts, no C
 
 ### 1. Create the GitHub repository
 
-1. Create a new public repository on GitHub named `shotclock-legal` under the account `hrkuenstler`.
+1. Create a new public repository on GitHub under the account `hrkuenstler` (suggested name: `scoreboards-legal`).
 2. Push the contents of this folder (including the `CNAME` file) to the `main` branch.
 
 ### 2. Configure DNS
@@ -52,11 +52,9 @@ The trailing dot on `hrkuenstler.github.io.` makes it a fully qualified domain n
 
 Open `https://scoreboard.krabbenfudder.de/privacy.html` in an incognito window. It must load without warnings, without login, and over HTTPS.
 
-## Before publishing
+## Contact email
 
-- Replace `[E-Mail-Adresse einfügen]` in `privacy.html` (appears twice: once in the privacy section under "Verantwortlicher", once in the imprint section under "Kontakt") with the contact email address.
-- Verify the page renders correctly on mobile — Google Play reviewers check from mobile.
-- Confirm the URL is reachable in incognito mode with no login required.
+The contact email `kuenstler.scoreboard@gmail.com` is already embedded in `privacy.html` (twice: once under "Verantwortlicher" in the privacy section, once under "Kontakt" in the imprint section). No further edits required before deployment.
 
 ## Updating the policy
 
